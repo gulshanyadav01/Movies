@@ -1,0 +1,34 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+}
+
+.cards{
+  /* width: 100%; */
+  /* height:auto; */
+  /* display:flex; */
+  margin:50px;
+  /* flex-wrap:wrap; */
+  
+}
+.card{
+  /* flex-basis:20%; */
+  /* display:float; */
+  float:left;
+  width:25%;
+  margin:20px;
+  background:red;
+  border-radius:30px;
+  
+}
+.card img{
+  width:100%;
+  height:300px;
+  border-top-left-radius: 30px;
+  border-top-right-radius:30px;
+ 
+}
+button{
+  cursor:pointer;
+}
